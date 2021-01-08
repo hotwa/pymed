@@ -21,6 +21,29 @@ from pymed import PubMed
 pubmed = PubMed(tool="MyTool", email="my@email.address")
 results = pubmed.query("Some query", max_results=500)
 ```
+## There is some infos will help your user search builder
+
+>Using the search builder
+>
+>Click [Advanced search](https://pubmed.ncbi.nlm.nih.gov/advanced/) and use the search builder.
+>
+>In here you can contribute searching query, and there is some **History and Search Details**
+
+## Example warning
+
+> In python scripts, two words link with 'AND'. 
+>
+> In web pages, it is 'OR' when searching in [pubmed](https://pubmed.ncbi.nlm.nih.gov/). 
+>
+> The different in search results, therefor you should care for use 'AND' and 'OR' words. 
+
+### here is some bugs need to fix
+
+> In results, json key: 'pubmedid' occur to like this `"pubmed_id": "33163806\n19615749\n10899625\n6294088\n24905783\n27081112\n25620698\n1988040\n26970376\n9570564\n32405284\n32264791\n19648270\n8896442\n22178917\n20889553\n30244324\n29664642\n32274522\n27177653\n27666013\n32027979\n17653609\n29652924\n19077082\n21788983\n7021592\n2841359\n7593196\n21079042\n19278419\n10733101\n21553931",`
+>
+> Just the first number is the correct pubmedid. 
+>
+> The others are reference papers' pubmedid.
 
 ## Notes on the API
 The original documentation of the PubMed API can be found here: [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/tools/developers/). PubMed Central kindly requests you to:
