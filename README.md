@@ -87,8 +87,6 @@ The author of this library is not affiliated, associated, authorized, endorsed b
 ## Others
 
 >Welcome Fork,Star,Issues, I will try to solve the related problems.
->
->If you have other communication about medical and pharmaceutical data analysis, you can add my qq group: 816163664
 
 Recommend parsing JSON can be used with [JmesPath](https://github.com/jmespath/jmespath.py) library is more convenient to use.
 
