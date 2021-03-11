@@ -87,8 +87,6 @@ PubMed API的原始文档可以在这里找到。[PubMed Central](https://www.nc
 
 欢迎Fork,Star,Issues，我会尝试解决相关问题。
 
-如果有其他关于医疗医药数据分析交流，可以添加我的qq群：816163664
-
 推荐解析JSON可以搭配[JmesPath](https://github.com/jmespath/jmespath.py)库更加利于使用
 
 可以参考其他相关的解析PubMed的github项目构建您自己的脚本：
